@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWB Feedback Survey</title>
+</head>
+<body>
+    <div class="container"> 
+        <header>
+            <h1 id="title">The Well Branded Feedback Survey</h1>
+            <p id="description">We appreciate your feedback, it is invaluable to us!</p>
+        </header>
+        <form id="survey-form">
+            <div class = "form-group">
+                <label id="name-label" for="name">Name</label>
+                <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    placeholder="Enter your name"
+                    required
+                />
+            </div>
+            <div class = "form-group">
+                <label id="email-label" for="email">Email</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Enter your email address"
+                    required
+                />
+            </div>
+            <div class = "form-group">
+                <label id="number-label" for="age">Age (Optional)</label>
+                <input
+                    type="number"
+                    name="age"
+                    id="number"
+                    class="form-control"
+                    placeholder="Age (optional)."
+                    min="18"
+                    max="99"
+                />
+            </div>
+            <div class = "form-group">
+                <label id="dropdown" for="price">How do your find our pricing?</label>
+                <select id="price" class = "form-control">
+                    <option value="pay_more">I'd be willing to pay more.</option>
+                    <option value="price_right">I think your prices are just right.</option>
+                    <option value="slight_high">I think your prices are slightly too high.</option>
+                    <option value="too_high">I find your prices to be too high.</option>
+                </select>
+            </div>
+            <div class = "form-group">
+                <label id="dropdown" for="quality">How would you rate the quality of our products?</label>
+                <select id="dropdown" class = "form-control" name="quality"required>
+                    <option value="poor">Poor Quality</option>
+                    <option value="good">Good Quality.</option>
+                    <option value="high_quality">High Quality</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>How likely are you to recommend us to a friend or collegue?</p>
+                    <p>
+                        Not Likely
+                        <input type="radio" name="score" value="0"> 0</>
+						<input type="radio" name="score" value="1"> 1</>
+						<input type="radio" name="score" value="2"> 2</>
+						<input type="radio" name="score" value="3"> 3</span>
+						<input type="radio" name="score" value="4"> 4</span>
+						<input type="radio" name="score" value="5"> 5</span>
+						<input type="radio" name="score" value="6"> 6</span>
+						<input type="radio" name="score" value="7"> 7</span>
+						<input type="radio" name="score" value="8"> 8</span>
+						<input type="radio" name="score" value="9"> 9</span>
+                        <input type="radio" name="score" value="10"> 10</span>
+                        Very Likely
+                    </p>
+            </div>
+            <div class="form-group">
+                <p>What products do you wish we had more of? 
+                    <span class="clue">(Check all that apply)</span>
+                </p>
+
+                <label>
+                    <input type="checkbox" name="products" value="t-shirt" class="checkbox-input"/>
+                    t-shirt
+                </label>
+                <label>
+                    <input type="checkbox" name="products" value="tanktops" class="checkbox-input"/>
+                    tanktops
+                </label>
+                <label>
+                    <input type="checkbox" name="products" value="shorts" class="checkbox-input"/>
+                    shorts
+                </label>
+                <label>
+                    <input type="checkbox" name="products" value="baseball caps" class="checkbox-input"/>
+                    baseball caps
+                </label>
+                <label>
+                    <input type="checkbox" name="products" value="crop tops" class="checkbox-input"/>
+                    crop tops
+                </label>
+                <label>
+                    <input type="checkbox" name="products" value="gym shorts" class="checkbox-input"/>
+                    gym shorts
+                </label>
+                <label>
+                    <input type="checkbox" name="products" value="socks" class="checkbox-input"/>
+                    socks
+                </label>
+                <label>
+                    <input type="checkbox" name="products" value="sunglasses" class="checkbox-input"/>
+                    sunglasses
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Additional feedback or suggestions?</p>
+                <textarea
+                id="comments"
+                class="input-textarea"
+                name="comment"
+                placeholder="Enter your comment here..."
+                >
+                </textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                  Submit
+                </button>
+              </div>
+        </form>
+    </div>
+</body>
+
+</html>
