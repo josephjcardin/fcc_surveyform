@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TWB Feedback Survey</title>
@@ -65,7 +66,7 @@
             <div class="form-group">
                 <p>How likely are you to recommend us to a friend or collegue?</p>
                     <p>
-                        Not Likely
+                        <span class="bold">Not Likely</span>
                         <input type="radio" name="score" value="0"> 0</>
 						<input type="radio" name="score" value="1"> 1</>
 						<input type="radio" name="score" value="2"> 2</>
@@ -77,42 +78,48 @@
 						<input type="radio" name="score" value="8"> 8</span>
 						<input type="radio" name="score" value="9"> 9</span>
                         <input type="radio" name="score" value="10"> 10</span>
-                        Very Likely
+                        <span class = "bold"> Very Likely</span>
                     </p>
             </div>
             <div class="form-group">
-                <p>What products do you wish we had more of? 
+                <p class="question">What products do you wish we had more of? 
                     <span class="clue">(Check all that apply)</span>
                 </p>
-
-                <label>
-                    <input type="checkbox" name="products" value="t-shirt" class="checkbox-input"/>
+                <label float=left>
+                    <input float=left type="checkbox" name="products" value="t-shirt" class="checkbox-input"/>
                     t-shirt
                 </label>
+                <br>    
                 <label>
                     <input type="checkbox" name="products" value="tanktops" class="checkbox-input"/>
                     tanktops
                 </label>
+                <br> 
                 <label>
                     <input type="checkbox" name="products" value="shorts" class="checkbox-input"/>
                     shorts
                 </label>
+                <br> 
                 <label>
                     <input type="checkbox" name="products" value="baseball caps" class="checkbox-input"/>
                     baseball caps
                 </label>
+                <br> 
                 <label>
                     <input type="checkbox" name="products" value="crop tops" class="checkbox-input"/>
                     crop tops
                 </label>
+                <br> 
                 <label>
                     <input type="checkbox" name="products" value="gym shorts" class="checkbox-input"/>
                     gym shorts
                 </label>
+                <br> 
                 <label>
                     <input type="checkbox" name="products" value="socks" class="checkbox-input"/>
                     socks
                 </label>
+                <br> 
                 <label>
                     <input type="checkbox" name="products" value="sunglasses" class="checkbox-input"/>
                     sunglasses
@@ -134,7 +141,6 @@
                 </button>
               </div>
         </form>
-        <footer> <a href="www.thewellbranded.com" Shop TWB></a></footer>
     </div>
 </body>
 
